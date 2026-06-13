@@ -1,0 +1,25 @@
+{
+    "name": "py-tools",
+    "version": "1.0.0",
+    "description": "Python 便捷工具包 - 快速执行代码、运行脚本、查看环境",
+    "author": "MLTSF Community",
+    "main": "main.js",
+    "commands": [
+        {
+            "name": "py",
+            "description": "执行 Python 代码，用法: /py <代码> 或 /py run <代码>"
+        },
+        {
+            "name": "pyfile",
+            "description": "执行项目中的 .py 文件，用法: /pyfile <文件名>"
+        },
+        {
+            "name": "pyversion",
+            "description": "显示当前 Python 版本信息"
+        },
+        {
+            "name": "pyenv",
+            "description": "显示 Python 环境信息（路径、已安装包等）"
+        }
+    ]
+}
