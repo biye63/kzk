@@ -1,0 +1,13 @@
+{
+    "name": "py-editor",
+    "version": "1.0.0",
+    "description": "图形化Python编程界面扩展包，提供 /tx py 命令打开Python IDE",
+    "author": "MLTSF",
+    "main": "main.js",
+    "commands": [
+        {
+            "name": "tx py",
+            "description": "打开图形化Python编程界面"
+        }
+    ]
+}
