@@ -1,0 +1,23 @@
+{
+  "name": "py-gui-editor",
+  "version": "1.0.0",
+  "description": "图形化Python编程界面：内置代码编辑器，支持编辑、保存、运行Python文件，集成文件管理和环境检测",
+  "author": "MLTSF Developer",
+  "icon": "",
+  "main": "main.js",
+  "styles": ["style.css"],
+  "scripts": [],
+  "dependencies": [],
+  "autoLoad": false,
+  "permissions": ["storage", "ui"],
+  "commands": [
+    {
+      "name": "pygui",
+      "description": "打开Python图形化编程界面"
+    },
+    {
+      "name": "pyedit",
+      "description": "打开Python编辑器（/pygui的别名）"
+    }
+  ]
+}
